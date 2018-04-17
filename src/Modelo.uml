@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="315.56944444444446" y="858.0">Professor</node>
+    <node x="253.0" y="234.0">Aluno</node>
+    <node x="254.5" y="491.0">Aula</node>
+    <node x="381.56944444444446" y="21.5">Identificador</node>
+    <node x="0.0" y="245.0">Horario</node>
+    <node x="52.5" y="0.0">DiaSemana</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Aula" target="Horario">
+      <point x="-96.75" y="-158.5" />
+      <point x="286.75" y="466.0" />
+      <point x="116.5" y="466.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Aula" target="Aluno">
+      <point x="-32.25" y="-158.5" />
+      <point x="351.25" y="466.0" />
+      <point x="318.25" y="466.0" />
+      <point x="-65.25" y="103.5" />
+    </edge>
+    <edge source="Professor" target="Aula">
+      <point x="-87.0" y="-81.5" />
+      <point x="359.06944444444446" y="833.0" />
+      <point x="319.0" y="833.0" />
+      <point x="-64.5" y="158.5" />
+    </edge>
+    <edge source="Horario" target="DiaSemana">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="Aluno" target="Identificador">
+      <point x="-65.25" y="-103.5" />
+      <point x="318.25" y="209.0" />
+      <point x="405.06944444444446" y="209.0" />
+      <point x="-70.5" y="70.5" />
+    </edge>
+    <edge source="Aula" target="Identificador">
+      <point x="96.75" y="-158.5" />
+      <point x="480.25" y="466.0" />
+      <point x="534.75" y="466.0" />
+      <point x="534.75" y="209.0" />
+      <point x="499.06944444444446" y="209.0" />
+      <point x="23.5" y="70.5" />
+    </edge>
+    <edge source="Aula" target="Professor">
+      <point x="64.5" y="158.5" />
+      <point x="448.0" y="833.0" />
+      <point x="446.06944444444446" y="833.0" />
+      <point x="0.0" y="-81.5" />
+    </edge>
+    <edge source="Aluno" target="Aula">
+      <point x="65.25" y="103.5" />
+      <point x="448.75" y="466.0" />
+      <point x="415.75" y="466.0" />
+      <point x="32.25" y="-158.5" />
+    </edge>
+    <edge source="Professor" target="Identificador">
+      <point x="87.00000000000001" y="-81.5" />
+      <point x="533.0694444444445" y="833.0" />
+      <point x="549.8194444444445" y="833.0" />
+      <point x="549.8194444444445" y="209.0" />
+      <point x="546.0694444444445" y="209.0" />
+      <point x="70.50000000000001" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8100936524453692" x="483.51252408477853" y="197.62100064901682" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
